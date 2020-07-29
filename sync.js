@@ -1,5 +1,7 @@
-const admin = require('firebase-admin');
-const axios = require('axios').default;
+import 'firebase/database';
+import 'firebase/storage';
+import admin from 'firebase-admin';
+import axios from 'axios';
 
 var serviceAccount = require('../admin-sdk.json');
 
